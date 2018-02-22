@@ -8,6 +8,7 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/pages/home.component';
 import { AboutComponent } from './components/pages/about.component';
+import { Routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutComponent } from './components/pages/about.component';
   ],
   imports: [
     NgbModule.forRoot(),
-    BrowserModule
+    BrowserModule, 
+    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]
